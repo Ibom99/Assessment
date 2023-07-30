@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/MessageContainer.css'
 
-const messageContainer = () => {
+const MessageContainer = () => {
   return (
     <div>
       
@@ -9,4 +9,4 @@ const messageContainer = () => {
   )
 }
 
-export default messageContainer
+export default MessageContainer

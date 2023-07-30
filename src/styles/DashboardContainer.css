@@ -1,0 +1,46 @@
+.dashboard-content-container{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.dashboard-analytics{
+  background-color: pink;
+  margin: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "week week week-two"
+  "marketing products orders"
+  "marketing cart orders"
+  "summary summary orders"
+  "summary summary orders"
+  
+}
+.week{
+    background-color: blueviolet;
+    grid-area: week;
+}
+
+.week-two{
+    grid-area: week-two;
+}
+
+.marketing{
+    grid-area: marketing;
+}
+
+.products{
+    grid-area: products;
+}
+.cart{
+    grid-area: cart;
+}
+.orders{
+grid-area: orders;
+}
+
+.summary{
+grid-area: summmary;
+}

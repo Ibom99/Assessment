@@ -1,11 +1,27 @@
 import React from 'react'
 import "../styles/Messages.css"
-import SideBar from '../components/SideBar'
+import SideBar from '../components/sideBar'
+import TopBar from '../components/topBar'
+import MessageContainer from '../components/messageContainer'
 
 const Messages = () => {
   return (
-    <div>
+    <div className='messages-display'>
+      <div className='sidebar'>
       <SideBar />
+      </div>
+     
+     
+     <div className='messages-content'>
+     <TopBar />
+     <MessageContainer />
+     </div>
+
+    
+   
+     
+     
+     
     </div>
   )
 }
