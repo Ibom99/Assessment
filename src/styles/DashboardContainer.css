@@ -4,6 +4,8 @@
     background-color: #F1F3F9;
 }
 
+/* grid layout */
+
 .dashboard-analytics{
   /* background-color: #F1F3F9; */
   margin: 1.5rem;
@@ -19,18 +21,102 @@
 ;
 gap: 20px;
 }
+
+/* first grid */
 .week{
     background-color: white;
     grid-area: week;
-    height: 9.25rem;
+    /* height: 9.25rem; */
     border-radius: 12px;
     padding: 0.9rem;
 }
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* background-color: bisque; */
+    height: 2.25rem;
+}
+.date{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: #BEC0CA;
+    font-size: 12px;
+}
+.date-text{
+    margin-right: 0.5rem;
+}
+
+.week-icon{
+    background-color: #5570F11F;
+    border-radius: 8px;
+    padding: 0.2rem 0.3rem;
+}
+.bottom-section{
+    display: flex;
+    justify-content: space-between;
+    height: 17px;
+}
+.sales,
+.volume,
+.customers,
+.active{
+    width: 8rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.sales-label,
+.volume-label,
+.customers-label,
+.active-label{
+    color: #8B8D97;
+    font-size: 14px;
+    margin-bottom: 0.3rem;
+}
+.volume-numbers,
+.customer-numbers,
+.active-numbers{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.sales-digit,
+.volume-digit,
+.customer-digit,
+.active-digit{
+    color: #45464E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.volume-percentage,
+.customer-percentage,
+.active-percentage{
+    color: #519C66;
+    font-size: 12px;
+    
+}
+
+
+/* second card */
 .week-one{
     grid-area: week-one;
-    background-color: blue;
+    background-color: white;
     border-radius: 12px;
+    padding: 0.9rem;
 }
+.customer-icon{
+    background-color: #FFCC9129;
+    border-radius: 8px;
+    padding: 0.2rem 0.3rem;
+}
+
+
+
+
+/* third card */
 
 .week-two{
     grid-area: week-two;
