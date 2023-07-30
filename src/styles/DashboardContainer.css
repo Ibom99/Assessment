@@ -20,38 +20,50 @@
 gap: 20px;
 }
 .week{
-    background-color: blueviolet;
+    background-color: white;
     grid-area: week;
+    height: 9.25rem;
+    border-radius: 12px;
+    padding: 0.9rem;
 }
 .week-one{
     grid-area: week-one;
     background-color: blue;
+    border-radius: 12px;
 }
 
 .week-two{
     grid-area: week-two;
     background-color: yellow;
+    border-radius: 12px;
 }
 
 .marketing{
     grid-area: marketing;
     background-color: greenyellow;
+    height: 21rem;
+    border-radius: 12px;
 }
 
 .products{
     grid-area: products;
     background-color: green;
+    border-radius: 12px;
 }
 .cart{
     grid-area: cart;
     background-color: white;
+    border-radius: 12px;
 }
 .orders{
 grid-area: orders;
 background-color: brown;
+border-radius: 12px;
 }
 
 .summary{
 grid-area: summary;
 background-color: orange;
+border-radius: 12px;
+
 }
