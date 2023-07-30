@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&display=swap');
+.sidebar-container{
+   height: 64rem;
+   /* width: 18.5rem; */
+   /* background-color: aliceblue; */
+   /* padding: 1rem; */
+}
+.top-section{
+    display: flex;
+   align-items: center;
+   width: 14.5rem;
+   margin: 0 auto;
+  
+  padding: 0.5rem;
+    height: 3.25rem;
+    margin-bottom: 2.5rem;
+}
+.logo{
+    
+   text-align: center;
+}
+.metrix{
+font-size: 20px;
+font-family: 'Poppins', sans-serif;
+margin: 0.5rem;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    width: 14.5rem;
+    height: 3.5rem;
+    /* background-color: bisque;
+    ; */
+    margin: 0 auto;
+    padding: 1rem;
+    align-items: center;
+   gap: 0.6rem;
+   font-family: 'Inter', sans-serif;
+}
+
+.link.active {
+    background-color: #5570F1;
+    color: white;
+    border-radius: 0.5rem;
+  }
+
+
+.menu-name{
+    font-size: 0.8rem;
+}
