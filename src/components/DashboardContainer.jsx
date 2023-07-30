@@ -7,30 +7,30 @@ const DashboardContainer = () => {
      
       <div className='dashboard-analytics'>
 <div className='week'>
-<p>1</p>
+<p>Sales</p>
 </div>
-<div className='week'>
-<p>1</p>
+<div className='week-one'>
+<p>Customers</p>
 </div>
 <div className='week-two'>
-<p>1</p>
+<p>Orders</p>
 </div>
 <div className='marketing'>
-<p>1</p>
+<p>Marketing</p>
 </div>
 <div className='products'>
-<p>1</p>
+<p>All products</p>
 </div>
 <div className='cart'>
-<p>1</p>
+<p>Abandoned Carts</p>
 
 </div>
 <div className='orders'>
-<p>1</p>
+<p>Recent Order</p>
 
 </div>
 <div className='summary'>
-<p>1</p>
+<p>Summary</p>
 
 </div>
       </div>

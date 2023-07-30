@@ -1,46 +1,57 @@
 .dashboard-content-container{
     height: 100%;
     width: 100%;
-    background-color: antiquewhite;
+    background-color: #F1F3F9;
 }
 
 .dashboard-analytics{
-  background-color: pink;
+  /* background-color: #F1F3F9; */
   margin: 1.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1.5fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: 
-  "week week week-two"
+  "week week-one week-two"
   "marketing products orders"
   "marketing cart orders"
   "summary summary orders"
   "summary summary orders"
-  
+;
+gap: 20px;
 }
 .week{
     background-color: blueviolet;
     grid-area: week;
 }
+.week-one{
+    grid-area: week-one;
+    background-color: blue;
+}
 
 .week-two{
     grid-area: week-two;
+    background-color: yellow;
 }
 
 .marketing{
     grid-area: marketing;
+    background-color: greenyellow;
 }
 
 .products{
     grid-area: products;
+    background-color: green;
 }
 .cart{
     grid-area: cart;
+    background-color: white;
 }
 .orders{
 grid-area: orders;
+background-color: brown;
 }
 
 .summary{
-grid-area: summmary;
+grid-area: summary;
+background-color: orange;
 }
