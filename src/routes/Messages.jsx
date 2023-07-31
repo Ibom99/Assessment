@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/Messages.css";
-import SideBar from "../components/sideBar";
-import TopBar from "../components/topBar";
-import MessageContainer from "../components/messageContainer";
+import SideBar from "../components/SideBar";
+import TopBar from "../components/TopBar";
+import MessageContainer from "../components/MessageContainer";
 
 const Messages = () => {
   return (
