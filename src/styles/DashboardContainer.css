@@ -1,70 +1,67 @@
-.dashboard-content-container{
-    height: 100%;
-    width: 100%;
-    background-color: #F1F3F9;
+.dashboard-content-container {
+  height: 100%;
+  width: 100%;
+  background-color: #f1f3f9;
 }
 
 /* grid layout */
 
-.dashboard-analytics{
+.dashboard-analytics {
   /* background-color: #F1F3F9; */
   margin: 1.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1.5fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: 
-  "week week-one week-two"
-  "marketing products orders"
-  "marketing cart orders"
-  "summary summary orders"
-  "summary summary orders"
-;
-gap: 20px;
+  grid-template-areas:
+    "week week-one week-two"
+    "marketing products orders"
+    "marketing cart orders"
+    "summary summary orders"
+    "summary summary orders";
+  gap: 20px;
 }
 
 /* first grid */
-.week{
-    background-color: white;
-    grid-area: week;
-    /* height: 9.25rem; */
-    border-radius: 12px;
-    padding: 0.9rem;
- 
+.week {
+  background-color: white;
+  grid-area: week;
+  /* height: 9.25rem; */
+  border-radius: 12px;
+  padding: 0.9rem;
 }
-.grid-top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    /* background-color: bisque; */
-    height: 2.25rem;
-    margin-bottom: 2.5rem;
+.grid-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* background-color: bisque; */
+  height: 2.25rem;
+  margin-bottom: 3.5rem;
 }
-.date{
-    display: flex;
-    font-family: 'Inter', sans-serif;
-    color: #BEC0CA;
-    font-size: 12px;
+.date {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  color: #bec0ca;
+  font-size: 12px;
 }
-.date-text{
-    margin-right: 0.5rem;
+.date-text {
+  margin-right: 0.5rem;
 }
 
-.week-icon{
-    background-color: #5570F11F;
-    border-radius: 8px;
-    padding: 0.2rem 0.4rem;
-    height: 2.2rem;
-    width: 2.2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.week-icon {
+  background-color: #5570f11f;
+  border-radius: 8px;
+  padding: 0.2rem 0.4rem;
+  height: 2.2rem;
+  width: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.bottom-section{
-    display: flex;
-    justify-content: space-between;
-    height: 17px;
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  height: 17px;
 }
 .sales,
 .volume,
@@ -72,9 +69,9 @@ gap: 20px;
 .active,
 .week-orders,
 .pending,
-.completed{
-    width: 8rem;
-    font-family: 'Inter', sans-serif;
+.completed {
+  width: 8rem;
+  font-family: "Inter", sans-serif;
 }
 
 .sales-label,
@@ -83,18 +80,18 @@ gap: 20px;
 .active-label,
 .orders-label,
 .pending-label,
-.completed-label{
-    color: #8B8D97;
-    font-size: 14px;
-    margin-bottom: 0.3rem;
+.completed-label {
+  color: #8b8d97;
+  font-size: 14px;
+  margin-bottom: 0.3rem;
 }
 .volume-numbers,
 .customer-numbers,
 .active-numbers,
-.cart-numbers{
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
+.cart-numbers {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 .sales-digit,
 .volume-digit,
@@ -104,260 +101,296 @@ gap: 20px;
 .pending-digit,
 .completed-digit,
 .cart-digit,
-.abandoned-customer-digit
-{
-    color: #45464E;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+.abandoned-customer-digit {
+  color: #45464e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .volume-percentage,
 .customer-percentage,
 .active-percentage,
-.cart-percentage{
-    color: #519C66;
-    font-size: 12px;
-    
+.cart-percentage {
+  color: #519c66;
+  font-size: 12px;
 }
-
 
 /* second card */
-.week-one{
-    grid-area: week-one;
-    background-color: white;
-    border-radius: 12px;
-    padding: 0.9rem;
+.week-one {
+  grid-area: week-one;
+  background-color: white;
+  border-radius: 12px;
+  padding: 0.9rem;
 }
 .customer-icon,
-.order-icon{
-    background-color: #FFCC9129;
-    border-radius: 8px;
-    padding: 0.2rem 0.4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 2.2rem;
-    width: 2.2rem;
+.order-icon {
+  background-color: #ffcc9129;
+  border-radius: 8px;
+  padding: 0.2rem 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.2rem;
+  width: 2.2rem;
 }
-
-
-
 
 /* third card */
 
-.week-two{
-    grid-area: week-two;
-    background-color: white;
-    border-radius: 12px;
-    padding: 0.9rem;
+.week-two {
+  grid-area: week-two;
+  background-color: white;
+  border-radius: 12px;
+  padding: 0.9rem;
 }
-
 
 /* fourth card */
-.marketing{
-    grid-area: marketing;
-    background-color: white;
-    /* height: 21rem; */
-    border-radius: 12px;
-    padding: 0.9rem;
+.marketing {
+  grid-area: marketing;
+  background-color: white;
+  /* height: 21rem; */
+  border-radius: 12px;
+  padding: 0.9rem;
 }
 .marketing-grid-top,
-.summary-grid-top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    /* background-color: bisque; */
-    height: 2.25rem;
+.summary-grid-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* background-color: bisque; */
+  height: 2.25rem;
 }
 .marketting-icon,
-.summary-icon{
-    font-size: 16px;
-    font-weight: 500;
-    font-family: 'Inter', sans-serif;
+.summary-icon {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
 }
-.mid-section{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2rem;
+.mid-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
 }
 .color-one,
 .color-two,
-.color-three{
-    width: 8px;
-    height: 8px;
-    border-radius: 6px;
-    margin-right: 0.5rem;
+.color-three {
+  width: 8px;
+  height: 8px;
+  border-radius: 6px;
+  margin-right: 0.5rem;
 }
-.color-one{
-    background-color: #5570F1;
+.color-one {
+  background-color: #5570f1;
 }
-.color-two{
-    background-color: #97A5EB;
+.color-two {
+  background-color: #97a5eb;
 }
-.color-three{
-    background-color: #FFCC91;
+.color-three {
+  background-color: #ffcc91;
 }
 
 .acquisition,
 .purchase,
-.retention{
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    /* background-color: #BEC0CA; */
+.retention {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  /* background-color: #BEC0CA; */
 }
-.color-label{
-    color: #A6A8B1;
-    font-family: 'Inter', sans-serif;
-    font-size: 11px;
+.color-label {
+  color: #a6a8b1;
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
 }
 .marketing-bottom,
-.summary-bottom{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.summary-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.donut-graph{
-    width: 12.8rem ;
-    height: 12.8rem ;
+.donut-graph {
+  width: 12.8rem;
+  height: 12.8rem;
 }
 
 /* fifth card */
 
-.products{
-    grid-area: products;
-    background-color: #5570F1;
-    border-radius: 12px;
-    padding: 0.9rem;
+.products {
+  grid-area: products;
+  background-color: #5570f1;
+  border-radius: 12px;
+  padding: 0.9rem;
 }
-.products-icon{
-    background-color: #FFFFFF29;
-    border-radius: 8px;
-    padding: 0.2rem 0.4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 2.2rem;
-    width: 2.2rem;
+.products-icon {
+  background-color: #ffffff29;
+  border-radius: 8px;
+  padding: 0.2rem 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.2rem;
+  width: 2.2rem;
 }
 .product-digit,
 .products-label,
 .active-product,
-.active-product-label{
-    color: white;
+.active-product-label {
+  color: white;
 }
-.product-percentage{
-    color: #DBDEEE;
-    font-size: 12px;
+.product-percentage {
+  color: #dbdeee;
+  font-size: 12px;
 }
 .active-product,
-.product-digit{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+.product-digit {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
 }
 .products-label,
-.active-product-label{
-    font-family: 'Inter', sans-serif;
-    margin-bottom: 0.3rem;
+.active-product-label {
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0.3rem;
 }
 
 /* sixth card */
-.cart{
-    grid-area: cart;
-    background-color: white;
-    border-radius: 12px;
-    padding: 0.9rem;
+.cart {
+  grid-area: cart;
+  background-color: white;
+  border-radius: 12px;
+  padding: 0.9rem;
 }
-.cart-icon{
-    background-color: #FFCC9129;
-    border-radius: 8px;
-    padding: 0.2rem 0.4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 2.2rem;
-    width: 2.2rem;
+.cart-icon {
+  background-color: #ffcc9129;
+  border-radius: 8px;
+  padding: 0.2rem 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.2rem;
+  width: 2.2rem;
 }
-.abandoned-label{
-    color: #CC5F5F;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    margin-bottom: 0.3rem;
+.abandoned-label {
+  color: #cc5f5f;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  margin-bottom: 0.3rem;
 }
-.abandoned-customer-label{
-    color: #8B8D97;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    margin-bottom: 0.3rem;
+.abandoned-customer-label {
+  color: #8b8d97;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  margin-bottom: 0.3rem;
 }
 
 /* seventh card */
-.orders{
-grid-area: orders;
-background-color: white;
-border-radius: 12px;
-padding: 0.9rem;
-
+.orders {
+  grid-area: orders;
+  background-color: white;
+  border-radius: 12px;
+  padding: 0.9rem;
 }
 
-.orders-icon{
-    font-weight: 500;
-    font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    margin-bottom: 0.5rem;
+.orders-icon {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 2rem;
 }
 
+.recent-item {
+  display: flex;
+  margin: 0 auto;
+  width: 95%;
+  height: fit-content;
+  /* justify-content: space-between; */
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+  border-bottom: 1px solid #dbdeee;
+  gap: 1rem;
+}
 
+.item-section {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #BEC0CA; */
+  width: 100%;
+}
+.item-name,
+.item-date {
+  margin-bottom: 0.5rem;
+}
+.item-name {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
 
+.item-price {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.item-date {
+  color: #a6a8b1;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+.item-desc,
+.extra-details {
+  display: flex;
+  flex-direction: column;
+}
+.extra-details {
+  text-align: right;
+}
 
+.item-status {
+  text-align: center;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
 
 /* eigth card */
 
-.summary{
-grid-area: summary;
-background-color: white;
-border-radius: 12px;
-    padding: 0.9rem;
-    /* height: 20rem; */
+.summary {
+  grid-area: summary;
+  background-color: white;
+  border-radius: 12px;
+  padding: 0.9rem;
+  /* height: 20rem; */
 }
 
-
-
-.date-summary{
-    display: flex;
-    font-family: 'Inter', sans-serif;
-    color: black;
-    font-size: 12px;
+.date-summary {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  color: black;
+  font-size: 12px;
 }
-.summary-start{
-    display: flex;
-    width: 12rem;
-    justify-content: space-between;
-    align-items: center;
+.summary-start {
+  display: flex;
+  width: 12rem;
+  justify-content: space-between;
+  align-items: center;
 }
-.sales-summary{
-    display: flex;
-    background-color: #5570F114;
-    width: 6.1rem;
+.sales-summary {
+  display: flex;
+  background-color: #5570f114;
+  width: 6.1rem;
   justify-content: center;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem;
   border-radius: 8px;
-  color: #5570F1;
+  color: #5570f1;
 }
-.sales-text{
-    
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-  
+.sales-text {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
 }
-.bar-graph{
-    width: 90%;
-    padding-top: 2.5rem;
+.bar-graph {
+  width: 90%;
+  padding-top: 2.5rem;
 }

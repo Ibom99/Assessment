@@ -172,12 +172,12 @@ const SideBar = () => {
                 style={{ display: item.description ? "block" : "none" }}
               >
                 {item.description}
-               {item.descIcon}
+                {item.descIcon}
               </div>
             </div>
           </div>
         ))}
-      
+
         <div
           className="logout"
           onClick={toggle}
@@ -199,6 +199,5 @@ const SideBar = () => {
 };
 
 export default SideBar;
-
 
 //   add the width is open condition to centralize the icon when the nav is closed

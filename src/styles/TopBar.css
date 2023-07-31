@@ -1,51 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&display=swap");
 
-.topnav-container{
-    height: 5.25rem;
-    /* position: fixed; */
-    /* width: 71.5rem; */
-    /* background-color: aliceblue; */
-   width: 100%;
-}
-
-.topnav-content{
-height: 3.75rem;
-border-bottom: 1px solid #F1F3F9;
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 0px 21px 0px 21px;
+.topnav-container {
+  height: 5.25rem;
+  /* position: fixed; */
+  /* width: 71.5rem; */
+  /* background-color: aliceblue; */
+  width: 100%;
 }
 
-.dashboard-text{
-    size: 20px;
-    font-family: 'Poppins', sans-serif;
+.topnav-content {
+  height: 3.75rem;
+  border-bottom: 1px solid #f1f3f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 21px 0px 21px;
 }
 
-.profile-name{
-    display: flex;
-    align-items: center;
-    padding: 5px 12px;
-    background-color: #FEF5EA;
-    border-radius: 8px;
-    font-family: 'Inter', sans-serif;
-    margin-right: 1.5rem;
-}
-.brand{
-    margin-right: 1rem;
+.dashboard-text {
+  size: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
-.notification{
-    margin-right: 1.5rem; 
+.profile-name {
+  display: flex;
+  align-items: center;
+  padding: 5px 12px;
+  background-color: #fef5ea;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  margin-right: 1.5rem;
+}
+.brand {
+  margin-right: 1rem;
 }
 
-.topnav-user{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.notification {
+  margin-right: 1.5rem;
 }
-.dash-house{
-    align-items: center;
-    padding: 0px 21px 0px 21px;
-    
+
+.topnav-user {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.dash-house {
+  align-items: center;
+  padding: 0px 21px 0px 21px;
 }
