@@ -3,7 +3,7 @@ import "../styles/TopBar.css";
 import { FiChevronDown } from "react-icons/fi";
 import { Home, Notification } from "react-iconly";
 import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
+
 
 const TopBar = () => {
 
