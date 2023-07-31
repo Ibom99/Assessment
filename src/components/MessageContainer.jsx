@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/MessageContainer.css'
 import Contacts from './Contacts'
+import Chats from './Chats'
 
 const MessageContainer = () => {
   return (
@@ -13,6 +14,7 @@ const MessageContainer = () => {
 
 <div className='message-components'>
 <Contacts />
+<Chats />
 </div>
       </div>
     </div>

@@ -1,0 +1,79 @@
+.chats-container{
+    background-color: white;
+    width: 52rem;
+    border-radius: 8px;
+   padding: 1.5rem;
+}
+.chats-header{
+    display: flex;
+    height: 3.75rem;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    
+}
+.pop-image{
+    margin-right: 1.3rem;
+}
+.popchat-space{
+    justify-content: space-between;
+display: flex;
+width: 100%;
+}
+.popchat-name{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.popname-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.popstatus-time{
+    display: flex;
+}
+.pop-time{
+    color: #8B8D97;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+.online-color{
+    width: 8px;
+    height: 8px;
+border-radius: 10px;
+}
+.online{
+    margin-right: 0.5rem;
+    color: #B6BFE8;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+
+.customer-chat{
+    display: flex;
+}
+.new-customer{
+    margin-right: 1.5rem;
+    /* background-color: #FEF5EA; */
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+}
+.chatview-orders{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.view-profile{
+    color: #5570F1;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+.zero-orders{
+    color: #A6A8B1;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+.icon-orders{
+    display: flex;
+    align-items: center;
+}

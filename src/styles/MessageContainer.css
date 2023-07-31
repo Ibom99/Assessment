@@ -37,5 +37,8 @@
 
 .message-components{
     /* background-color: antiquewhite; */
+    display: flex;
     height: 95%;
+    gap:1.5rem;
+    width: 100%;
 }

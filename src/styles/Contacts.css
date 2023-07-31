@@ -7,6 +7,8 @@ border-radius: 8px;
     padding: 1.2rem;
     width: 100%;
     background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .contacts-title{
@@ -96,7 +98,7 @@ border-radius: 8px;
     justify-content: space-between;
     
 }
-.notification,
+.message-notification,
 .time{
 text-align: right;
 font-size: 12px;

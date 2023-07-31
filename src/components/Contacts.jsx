@@ -153,7 +153,7 @@ const contactList = [
   <p className='contact-message'>{item.message}</p>
 </div>
 <div className='notification-time'>
-<p className='notification'style={{backgroundColor: item.notification == "New" ? "#FEF5EA" : "#FFCC91"}} >{item.notification}</p>
+<p className='message-notification'style={{backgroundColor: item.notification == "New" ? "#FEF5EA" : "#FFCC91"}} >{item.notification}</p>
 <p className='time'>{item.time}</p>
   </div>
               </div>
