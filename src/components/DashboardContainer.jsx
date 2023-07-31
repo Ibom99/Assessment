@@ -3,7 +3,9 @@ import "../styles/DashboardContainer.css";
 import { Graph, TwoUsers, Bag, Folder } from "react-iconly";
 import { FiChevronDown, FiShoppingCart } from "react-icons/fi";
 
+
 const DashboardContainer = () => {
+ 
   const recentOrders = [
     {
       image: "/src/images/Rectangle 3.png",
@@ -69,6 +71,7 @@ const DashboardContainer = () => {
       status: "Pending",
     },
   ];
+  
 
   return (
     <div className="dashboard-content-container">
@@ -120,7 +123,7 @@ const DashboardContainer = () => {
                 <span className="customer-percentage">+15.80%</span>
               </div>
             </div>
-            <div className="active">
+            <div className="active-section">
               <p className="active-label">Active</p>
 
               <div className="active-numbers">

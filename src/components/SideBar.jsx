@@ -28,42 +28,38 @@ const SideBar = () => {
       name: "Dashboard",
       icon: (
         <Category
-          set="bold"
-          primaryColor="black"
-          styles={{
-            ":hover": {
-              color: "white",
-            },
-          }}
+          set="bulk"
+    
+        
         />
       ),
     },
     {
       path: "/orders",
       name: "Orders",
-      icon: <Bag set="light" primaryColor="black" />,
+      icon: <Bag set="light"  />,
       amount: "3",
     },
     {
       path: "/customers",
       name: "Customers",
-      icon: <TwoUsers set="light" primaryColor="black" />,
+      icon: <TwoUsers set="light"  />,
     },
     {
       path: "/inventory",
       name: "Inventory",
-      icon: <Folder set="light" primaryColor="black" />,
+      icon: <Folder set="light"  />,
     },
     {
-      path: "/messages",
+      path: "/conversations",
       name: "Conversations",
-      icon: <Chat set="light" primaryColor="black" />,
+      icon: <Chat set="light"  />,
       amount: "16",
     },
     {
       path: "/settings",
       name: "Settings",
-      icon: <Setting set="light" primaryColor="black" />,
+      icon: <Setting set="light"  />,
     },
   ];
 
@@ -114,11 +110,13 @@ const SideBar = () => {
             <NavLink
               to={item.path}
               key={index}
-              className="link"
+              className={({isActive}) =>
+              isActive ? "active link" : "link"
+            }
               style={{
                 width: isOpen ? "14.5rem" : "3.5rem",
               }}
-              activeClassName="active"
+              
               onClick={toggle}
             >
               <div className="icon">{item.icon}</div>

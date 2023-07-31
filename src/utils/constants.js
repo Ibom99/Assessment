@@ -1,4 +1,4 @@
 export const ROUTES = {
     DASHBOARD: "/",
-    MESSAGES: "/messages"
+    MESSAGES: "/conversations"
 };

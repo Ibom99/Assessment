@@ -46,7 +46,7 @@
   font-family: "Inter", sans-serif;
 }
 
-.link.active {
+.active {
   background-color: #5570f1;
   color: white;
   border-radius: 0.5rem;
