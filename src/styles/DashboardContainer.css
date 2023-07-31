@@ -29,14 +29,16 @@ gap: 20px;
     /* height: 9.25rem; */
     border-radius: 12px;
     padding: 0.9rem;
+ 
 }
-.top-section{
+.grid-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     /* background-color: bisque; */
     height: 2.25rem;
+    margin-bottom: 2.5rem;
 }
 .date{
     display: flex;
@@ -51,7 +53,8 @@ gap: 20px;
 .week-icon{
     background-color: #5570F11F;
     border-radius: 8px;
-    padding: 0.2rem 0.3rem;
+    padding: 0.2rem 0.4rem;
+
 }
 .bottom-section{
     display: flex;
@@ -61,7 +64,10 @@ gap: 20px;
 .sales,
 .volume,
 .customers,
-.active{
+.active,
+.week-orders,
+.pending,
+.completed{
     width: 8rem;
     font-family: 'Inter', sans-serif;
 }
@@ -69,7 +75,10 @@ gap: 20px;
 .sales-label,
 .volume-label,
 .customers-label,
-.active-label{
+.active-label,
+.orders-label,
+.pending-label,
+.completed-label{
     color: #8B8D97;
     font-size: 14px;
     margin-bottom: 0.3rem;
@@ -84,7 +93,11 @@ gap: 20px;
 .sales-digit,
 .volume-digit,
 .customer-digit,
-.active-digit{
+.active-digit,
+.order-digit,
+.pending-digit,
+.completed-digit
+{
     color: #45464E;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -107,10 +120,11 @@ gap: 20px;
     border-radius: 12px;
     padding: 0.9rem;
 }
-.customer-icon{
+.customer-icon,
+.order-icon{
     background-color: #FFCC9129;
     border-radius: 8px;
-    padding: 0.2rem 0.3rem;
+    padding: 0.2rem 0.4rem;
 }
 
 
@@ -120,22 +134,91 @@ gap: 20px;
 
 .week-two{
     grid-area: week-two;
-    background-color: yellow;
+    background-color: white;
     border-radius: 12px;
+    padding: 0.9rem;
 }
 
+
+/* fourth card */
 .marketing{
     grid-area: marketing;
-    background-color: greenyellow;
+    background-color: white;
     height: 21rem;
     border-radius: 12px;
+    padding: 0.9rem;
 }
+.marketing-grid-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* background-color: bisque; */
+    height: 2.25rem;
+}
+.marketting-icon{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+.mid-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.color-one,
+.color-two,
+.color-three{
+    width: 8px;
+    height: 8px;
+    border-radius: 6px;
+    margin-right: 0.5rem;
+}
+.color-one{
+    background-color: #5570F1;
+}
+.color-two{
+    background-color: #97A5EB;
+}
+.color-three{
+    background-color: #FFCC91;
+}
+
+.acquisition,
+.purchase,
+.retention{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    /* background-color: #BEC0CA; */
+}
+.color-label{
+    color: #A6A8B1;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+}
+.marketing-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.donut-graph{
+    width: 12.8rem ;
+    height: 12.8rem ;
+}
+
+/* fifth card */
 
 .products{
     grid-area: products;
-    background-color: green;
+    background-color: #5570F1;
     border-radius: 12px;
+    padding: 0.9rem;
 }
+
+/* sixth card */
 .cart{
     grid-area: cart;
     background-color: white;
