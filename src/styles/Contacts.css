@@ -39,3 +39,31 @@ width: 26rem;
     font-family: "Inter", sans-serif;
     font-size: 16px;
 }
+
+.contact-list{
+    width: 100%;
+    padding: 1.2rem;
+    max-height: 49.5rem;
+    overflow-y: scroll;
+}
+.contact-item{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+}
+.message-desc{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-message{
+    font-size: 14px ;
+}
+.time{
+    font-size: 12px;
+}
+
+
+.status{
+    height: 8px;
+    width: 8px
+}
