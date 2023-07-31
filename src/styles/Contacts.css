@@ -1,0 +1,41 @@
+.contacts-container{
+width: 26rem;
+}
+.contacts-header{
+    padding: 1.2rem;
+    width: 100%;
+    background-color: white;
+}
+
+.contacts-title{
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+
+}
+.contacts-amount{
+    color: #A6A8B1;
+}
+.contacts-search{
+    width: 100%;
+    padding: 0.6rem;
+    display: flex;
+    align-items: center;
+    /* background-color: beige; */
+    border-radius: 8px;
+    border: 1px solid #CFD3D4;
+}
+.contacts-input{
+    width: 100%;
+    margin-left: 0.5rem ;
+    padding: 0.2rem;
+    border: none;
+    background-color: transparent;
+    color: #ABAFB1;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
