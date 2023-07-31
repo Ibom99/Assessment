@@ -54,6 +54,11 @@ gap: 20px;
     background-color: #5570F11F;
     border-radius: 8px;
     padding: 0.2rem 0.4rem;
+    height: 2.2rem;
+    width: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .bottom-section{
@@ -85,7 +90,8 @@ gap: 20px;
 }
 .volume-numbers,
 .customer-numbers,
-.active-numbers{
+.active-numbers,
+.cart-numbers{
     display: flex;
     align-items: center;
     gap: 0.4rem;
@@ -96,7 +102,9 @@ gap: 20px;
 .active-digit,
 .order-digit,
 .pending-digit,
-.completed-digit
+.completed-digit,
+.cart-digit,
+.abandoned-customer-digit
 {
     color: #45464E;
     font-family: 'Poppins', sans-serif;
@@ -106,7 +114,8 @@ gap: 20px;
 
 .volume-percentage,
 .customer-percentage,
-.active-percentage{
+.active-percentage,
+.cart-percentage{
     color: #519C66;
     font-size: 12px;
     
@@ -125,6 +134,11 @@ gap: 20px;
     background-color: #FFCC9129;
     border-radius: 8px;
     padding: 0.2rem 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.2rem;
+    width: 2.2rem;
 }
 
 
@@ -144,11 +158,12 @@ gap: 20px;
 .marketing{
     grid-area: marketing;
     background-color: white;
-    height: 21rem;
+    /* height: 21rem; */
     border-radius: 12px;
     padding: 0.9rem;
 }
-.marketing-grid-top{
+.marketing-grid-top,
+.summary-grid-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -156,7 +171,8 @@ gap: 20px;
     /* background-color: bisque; */
     height: 2.25rem;
 }
-.marketting-icon{
+.marketting-icon,
+.summary-icon{
     font-size: 16px;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
@@ -197,7 +213,8 @@ gap: 20px;
     font-family: 'Inter', sans-serif;
     font-size: 11px;
 }
-.marketing-bottom{
+.marketing-bottom,
+.summary-bottom{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,22 +234,130 @@ gap: 20px;
     border-radius: 12px;
     padding: 0.9rem;
 }
+.products-icon{
+    background-color: #FFFFFF29;
+    border-radius: 8px;
+    padding: 0.2rem 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.2rem;
+    width: 2.2rem;
+}
+.product-digit,
+.products-label,
+.active-product,
+.active-product-label{
+    color: white;
+}
+.product-percentage{
+    color: #DBDEEE;
+    font-size: 12px;
+}
+.active-product,
+.product-digit{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.products-label,
+.active-product-label{
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0.3rem;
+}
 
 /* sixth card */
 .cart{
     grid-area: cart;
     background-color: white;
     border-radius: 12px;
+    padding: 0.9rem;
 }
+.cart-icon{
+    background-color: #FFCC9129;
+    border-radius: 8px;
+    padding: 0.2rem 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.2rem;
+    width: 2.2rem;
+}
+.abandoned-label{
+    color: #CC5F5F;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0.3rem;
+}
+.abandoned-customer-label{
+    color: #8B8D97;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0.3rem;
+}
+
+/* seventh card */
 .orders{
 grid-area: orders;
-background-color: brown;
+background-color: white;
 border-radius: 12px;
+padding: 0.9rem;
+
 }
+
+.orders-icon{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+
+/* eigth card */
 
 .summary{
 grid-area: summary;
-background-color: orange;
+background-color: white;
 border-radius: 12px;
+    padding: 0.9rem;
+    /* height: 20rem; */
+}
 
+
+
+.date-summary{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 12px;
+}
+.summary-start{
+    display: flex;
+    width: 12rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.sales-summary{
+    display: flex;
+    background-color: #5570F114;
+    width: 6.1rem;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-radius: 8px;
+  color: #5570F1;
+}
+.sales-text{
+    
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+  
+}
+.bar-graph{
+    width: 90%;
+    padding-top: 2.5rem;
 }

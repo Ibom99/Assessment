@@ -1,9 +1,78 @@
 import React from "react";
 import "../styles/DashboardContainer.css";
 import { Graph, TwoUsers, Bag, Folder } from "react-iconly";
-import { FiChevronDown } from "react-icons/fi";
+import { FiChevronDown, FiShoppingCart } from "react-icons/fi";
 
 const DashboardContainer = () => {
+
+  const recentOrders = [
+    {
+      image: '',
+      item: "iPhone 13",
+      price: "N730,000.00 x 1",
+      date: "12 Sept 2022",
+      status: "Pending"
+    },
+    {
+      image: '',
+      item: "iPhone 13",
+      price: "N730,000.00 x 1",
+      date: "12 Sept 2022",
+      status: "Completed"
+    },
+    {
+      image: '',
+      item: "iPhone 13",
+      price: "N730,000.00 x 1",
+      date: "12 Sept 2022",
+      status: "Pending"
+    },
+    {
+      image: '',
+      item: "iPhone 13",
+      price: "N730,000.00 x 1",
+      date: "12 Sept 2022",
+      status: "Completed"
+    },
+    {
+      image: '',
+      item: "iPhone 13",
+      price: "N730,000.00 x 1",
+      date: "12 Sept 2022",
+      status: "Completed"
+    },
+    {
+      image: '',
+      item: "iPhone 13",
+      price: "N730,000.00 x 1",
+      date: "12 Sept 2022",
+      status: "Completed"
+    },
+    {
+      image: '',
+      item: "iPhone 13",
+      price: "N730,000.00 x 1",
+      date: "12 Sept 2022",
+      status: "Pending"
+    },
+    {
+      image: '',
+      item: "iPhone 13",
+      price: "N730,000.00 x 1",
+      date: "12 Sept 2022",
+      status: "Pending"
+    },
+    {
+      image: '',
+      item: "iPhone 13",
+      price: "N730,000.00 x 1",
+      date: "12 Sept 2022",
+      status: "Pending"
+    },
+
+  ]
+
+
   return (
     <div className="dashboard-content-container">
       <div className="dashboard-analytics">
@@ -12,7 +81,7 @@ const DashboardContainer = () => {
         <div className="week">
           <div className="grid-top">
             <div className="week-icon">
-              <Graph set="light" primaryColor="#5570F1" size="small" />
+              <Graph set="light" primaryColor="#5570F1" />
             </div>
             <div className="date">
               <p className="date-text">This Week</p>
@@ -39,7 +108,7 @@ const DashboardContainer = () => {
         <div className="week-one">
           <div className="grid-top">
             <div className="customer-icon">
-              <TwoUsers set="light" primaryColor="#1C1D22" size="small" />
+              <TwoUsers set="light" primaryColor="#1C1D22"  />
             </div>
             <div className="date">
               <p className="date-text">This Week</p>
@@ -73,7 +142,7 @@ const DashboardContainer = () => {
                 set="light"
                 primaryColor="black
 "
-                size="small"
+
               />
             </div>
             <div className="date">
@@ -138,21 +207,102 @@ const DashboardContainer = () => {
         <div className="products">
           <div className="grid-top">
             <div className="products-icon">
-              <Folder set="light" primaryColor="white" size="small" />
+              <Folder set="light" primaryColor="white"  />
             </div>
+          </div>
+          <div className="bottom-section">
+            <div className="products-orders">
+              <p className="products-label">All Products</p>
+
+              <h3 className="product-digit">45</h3>
+            </div>
+
+            <div className="active">
+              <p className="active-product-label">Active</p>
+
+              <div className="active-numbers">
+                <p className="active-product">32</p>
+                <span className="product-percentage">+24%</span>
+              </div>
+            </div>
+           
           </div>
         </div>
 
+
         {/* sixth grid */}
         <div className="cart">
-          <p>Abandoned Carts</p>
+           <div className="grid-top">
+            <div className="cart-icon">
+              <FiShoppingCart />
+            </div>
+            <div className="date">
+              <p className="date-text">This Week</p>
+              <FiChevronDown />
+            </div>
+          </div>
+          <div className="bottom-section">
+            <div className="abandoned-cart">
+              <p className="abandoned-label">Abandoned Cart</p>
+              <div className="cart-numbers">
+                <h3 className="cart-digit">20%</h3>
+                <span className="cart-percentage">+0.00</span>
+              </div>
+            </div>
+            <div className="abandoned-customers">
+              <p className="abandoned-customer-label">Customers</p>
+                <p className="abandoned-customer-digit">30</p>
+                
+            </div>
+          </div>
         </div>
+       
+
+        {/* seventh grid */}
         <div className="orders">
-          <p>Recent Order</p>
+        <div className="orders-grid-top">
+
+            <p className="orders-icon">Recent Orders</p>
+
+            
+          </div>
         </div>
+
+
+
+
+        {/* eigth grid */}
         <div className="summary">
-          <p>Summary</p>
+        <div className="summary-grid-top">
+          <div className="summary-start">
+
+            <p className="summary-icon">Summary</p>
+
+            <div className="sales-summary">
+<p className="sales-text"> Sales</p>
+<FiChevronDown />
+            </div>
+            </div>
+            <div className="date-summary">
+              <p className="date-text">Last 7 Days</p>
+              <FiChevronDown />
+            </div>
+          </div>
+          <div className="summary-bottom">
+            <img
+              className="bar-graph"
+              src="/src/images/graphBar.png"
+              alt="bar graph"
+            />
+          </div>
+
         </div>
+
+
+
+
+
+
       </div>
     </div>
   );
