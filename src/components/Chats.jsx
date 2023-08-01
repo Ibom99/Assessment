@@ -57,7 +57,6 @@ const Chats = () => {
             </div>
           </div>
 
-
           <div className="conversation-two">
             <p className="conversation-two-text">
               Hello Janet, thank you for reaching out
@@ -71,9 +70,7 @@ const Chats = () => {
           </div>
 
           <div className="conversation-three">
-            <p className="conversation-three-text">
-              What do you need to know?
-            </p>
+            <p className="conversation-three-text">What do you need to know?</p>
             <div className="seen">
               <p className="seen-text">12:57 am</p>
               <span className="seen-icon">
@@ -83,32 +80,35 @@ const Chats = () => {
           </div>
 
           <div className="present-date-two">
-<p className="present-date-two-text">Today</p>
+            <p className="present-date-two-text">Today</p>
           </div>
 
           <div className="message-bubble-two">
-              <p>I want to know if the price is negotiable, i need 
-about 2 Units</p>
+            <p>
+              I want to know if the price is negotiable, i need about 2 Units
+            </p>
+          </div>
+
+          <div className="timestamp-pop-two">
+            <p className="timestamp-text-two">12:55 am</p>
+          </div>
+          <div className="send-message-input">
+            <div className="plus-icon">
+              <FiPlus />
             </div>
-
-            <div className="timestamp-pop-two">
-              <p className="timestamp-text-two">12:55 am</p>
+            <input
+              className="input-send-pop"
+              type="text"
+              placeholder="Your message"
+            />
+            <div className="smile-icon">
+              <FiSmile />
             </div>
-<div className="send-message-input">
-<div className="plus-icon">
-<FiPlus />
-</div>
-<input className="input-send-pop" type="text" placeholder="Your message" />
-<div className="smile-icon">
-<FiSmile />
-</div>
-<div className="send-btn">
-<p className="send-btn-text">Send</p>
-<Send set="bulk" size="small" />
-</div>
-
-</div>
-
+            <div className="send-btn">
+              <p className="send-btn-text">Send</p>
+              <Send set="bulk" size="small" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

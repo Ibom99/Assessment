@@ -3,75 +3,81 @@ import "../styles/DashboardContainer.css";
 import { Graph, TwoUsers, Bag, Folder } from "react-iconly";
 import { FiChevronDown, FiShoppingCart } from "react-icons/fi";
 
-
 const DashboardContainer = () => {
- 
   const recentOrders = [
     {
-      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_yy1oim.png",
+      image:
+        "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_yy1oim.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Pending",
     },
     {
-      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_1_uaxwoz.png",
+      image:
+        "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_1_uaxwoz.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Completed",
     },
     {
-      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_yy1oim.png",
+      image:
+        "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_yy1oim.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Pending",
     },
     {
-      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_1_uaxwoz.png",
+      image:
+        "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_1_uaxwoz.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Completed",
     },
     {
-      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_1_uaxwoz.png",
+      image:
+        "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_1_uaxwoz.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Completed",
     },
     {
-      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_1_uaxwoz.png",
+      image:
+        "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_1_uaxwoz.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Completed",
     },
     {
-      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_yy1oim.png",
+      image:
+        "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_yy1oim.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Pending",
     },
     {
-      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_yy1oim.png",
+      image:
+        "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_yy1oim.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Pending",
     },
     {
-      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_yy1oim.png",
+      image:
+        "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_yy1oim.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Pending",
     },
   ];
-  
 
   return (
     <div className="dashboard-content-container">

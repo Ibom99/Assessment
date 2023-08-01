@@ -4,20 +4,19 @@ import { FiChevronDown } from "react-icons/fi";
 import { Home, Notification } from "react-iconly";
 import { useLocation } from "react-router-dom";
 
-
 const TopBar = () => {
-
-  const {pathname} = useLocation()
+  const { pathname } = useLocation();
   const getRoute = () => {
-   return pathname.split("/").join("")
-   
-  }
-  
+    return pathname.split("/").join("");
+  };
+
   return (
     <div className="topnav-container">
       <div className="topnav-content">
         <div className="topnav-title">
-          <h3 className="dashboard-text">{getRoute() ? getRoute() : 'Dashboard'}</h3>
+          <h3 className="dashboard-text">
+            {getRoute() ? getRoute() : "Dashboard"}
+          </h3>
         </div>
         <div className="topnav-user">
           <div className="profile-name">
@@ -34,7 +33,7 @@ const TopBar = () => {
       </div>
       <div className="dash-house">
         <Home set="bulk" primaryColor="#5570F1" size="small" />
-{getRoute() &&  <p>/</p>}
+        {getRoute() && <p>/</p>}
         <p>{getRoute()}</p>
       </div>
     </div>

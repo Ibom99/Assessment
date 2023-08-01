@@ -26,40 +26,34 @@ const SideBar = () => {
     {
       path: "/",
       name: "Dashboard",
-      icon: (
-        <Category
-          set="bulk"
-    
-        
-        />
-      ),
+      icon: <Category set="bulk" />,
     },
     {
       path: "/orders",
       name: "Orders",
-      icon: <Bag set="light"  />,
+      icon: <Bag set="light" />,
       amount: "3",
     },
     {
       path: "/customers",
       name: "Customers",
-      icon: <TwoUsers set="light"  />,
+      icon: <TwoUsers set="light" />,
     },
     {
       path: "/inventory",
       name: "Inventory",
-      icon: <Folder set="light"  />,
+      icon: <Folder set="light" />,
     },
     {
       path: "/conversations",
       name: "Conversations",
-      icon: <Chat set="light"  />,
+      icon: <Chat set="light" />,
       amount: "16",
     },
     {
       path: "/settings",
       name: "Settings",
-      icon: <Setting set="light"  />,
+      icon: <Setting set="light" />,
     },
   ];
 
@@ -110,13 +104,10 @@ const SideBar = () => {
             <NavLink
               to={item.path}
               key={index}
-              className={({isActive}) =>
-              isActive ? "active link" : "link"
-            }
+              className={({ isActive }) => (isActive ? "active link" : "link")}
               style={{
                 width: isOpen ? "14.5rem" : "3.5rem",
               }}
-              
               onClick={toggle}
             >
               <div className="icon">{item.icon}</div>
