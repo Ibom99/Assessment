@@ -40,5 +40,5 @@
     display: flex;
     height: 95%;
     gap:1.5rem;
-    width: 100%;
+    width: fit-content;
 }

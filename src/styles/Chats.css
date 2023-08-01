@@ -9,7 +9,7 @@
     height: 3.75rem;
     width: 100%;
     /* background-color: antiquewhite; */
-    
+    margin-bottom: 2rem;
 }
 .pop-image{
     margin-right: 1.3rem;
@@ -41,6 +41,7 @@ width: 100%;
     width: 8px;
     height: 8px;
 border-radius: 10px;
+background-color: #5570F1;
 }
 .online{
     margin-right: 0.5rem;
@@ -72,8 +73,185 @@ border-radius: 10px;
     color: #A6A8B1;
     font-size: 14px;
     font-family: "Inter", sans-serif;
+    margin-left: 0.3rem;
 }
 .icon-orders{
     display: flex;
     align-items: center;
+}
+
+.chats-body{
+    height: fit-content;
+    width: 51.875rem;
+    background-color: white;
+}
+
+.present-date,
+.present-date-two{
+    display: flex;
+    justify-content: center;
+    /* background-color: aliceblue; */
+    
+}
+.present-date-pop,
+.present-date-two-text{
+    background-color: #F4F5FA;
+    width: fit-content;
+    height: 33px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+.conversation-body{
+    
+    width: 100%;
+}
+
+.conversation-one{
+    height: 11rem;
+    width: 100%;
+    /* background-color: #F4F5FA; */
+}
+.product-chat-pop{
+    width: 343px;
+    height: 49px;
+    display: flex;
+    /* background-color: bisque; */
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #F4F5FA;
+}
+.iphone-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+width: 100%;
+}
+.iphone-price-text{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+.price-stock{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+.message-bubble,
+.message-bubble-two{
+    width: 343px;
+    /* height: 49px; */
+    color: white;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    background-color: #5570F1;
+    padding: 16px;
+    border-radius: 16px 16px 16px 0px;
+    margin-bottom: 0.5rem;
+}
+
+.timestamp-text,
+.timestamp-text-two{
+    color: #8B8D97;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+.price-stock-text{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif
+}
+.price-in-stock{
+    font-size: 12px;
+    color: #A6A8B1;
+    font-weight: 500;
+    font-family: "Inter", sans-serif
+}
+
+.conversation-two,
+.conversation-three{
+width: 100%;
+align-items: end;
+display: flex;
+flex-direction: column;
+margin-bottom: 1.5rem;
+}
+.conversation-two-text,
+.conversation-three-text{
+    background-color: #FFEAD1;
+    padding: 16px;
+    font-family: "Inter", sans-serif;
+    border-radius: 16px 16px 0px 16px;
+    width: fit-content; 
+    margin-bottom: 0.5rem;
+}
+
+.seen{
+    display: flex;
+    align-items: center;
+}
+.seen-text{
+    color: #8B8D97;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    margin-right: 0.5rem;
+}
+.seen-icon{
+    background-color: #FFEAD1;
+    padding: 0.2rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.send-message-input{
+    display: flex;
+    padding: 0.6rem;
+    border: 1px solid #F4F5FA;
+    height: 51px;
+}
+.plus-icon{
+    background-color:#FFF2E2 ;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+}
+
+.input-send-pop{
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    color: #6E7079;
+    font-family: "Inter", sans-serif;
+}
+.smile-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 0.4rem;
+    padding: 0.3rem;
+    color: #5570F1;
+}
+.send-btn{
+    display: flex;
+    align-items: center;
+    background-color: #FFF2E2 ;
+    padding: 8px 16px;
+}
+
+.send-btn-text{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    margin-right: 0.2rem;
+}
+.timestamp-text-two{
+    margin-bottom: 4rem;
 }
