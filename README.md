@@ -24,7 +24,11 @@ Currently, two official plugins are available:
 
    yarn install
 
-3. See Changes
-Run a development version of the project on our computer, which is helpful for seeing and testing changes.
+3. View changes
 
+Run a development version of the project on our computer, which is helpful for seeing and testing changes.
+```bash
 npm run dev
+
+## Deployed
+https://role-assessment.netlify.app/
