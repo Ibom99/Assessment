@@ -6,7 +6,7 @@ const Chats = () => {
   return (
     <div className='chats-container'>
       <div className='chats-header'>
-<img className='pop-image' src='/src/images/Rectangle 3 (2).png' />
+<img className='pop-image' src='https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_2_ddjtmi.png' />
 <div className='popchat-space'>
 
 

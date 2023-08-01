@@ -8,63 +8,63 @@ const DashboardContainer = () => {
  
   const recentOrders = [
     {
-      image: "/src/images/Rectangle 3.png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_yy1oim.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Pending",
     },
     {
-      image: "/src/images/Rectangle 3 (1).png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_1_uaxwoz.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Completed",
     },
     {
-      image: "/src/images/Rectangle 3.png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_yy1oim.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Pending",
     },
     {
-      image: "/src/images/Rectangle 3 (1).png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_1_uaxwoz.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Completed",
     },
     {
-      image: "/src/images/Rectangle 3 (1).png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_1_uaxwoz.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Completed",
     },
     {
-      image: "/src/images/Rectangle 3 (1).png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_1_uaxwoz.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Completed",
     },
     {
-      image: "/src/images/Rectangle 3.png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_yy1oim.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Pending",
     },
     {
-      image: "/src/images/Rectangle 3.png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_yy1oim.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
       status: "Pending",
     },
     {
-      image: "/src/images/Rectangle 3.png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_yy1oim.png",
       item: "iPhone 13",
       price: "N730,000.00 x 1",
       date: "12 Sept 2022",
@@ -196,7 +196,7 @@ const DashboardContainer = () => {
           <div className="marketing-bottom">
             <img
               className="donut-graph"
-              src="/src/images/Group 2.png"
+              src="https://res.cloudinary.com/dzzohccd8/image/upload/v1690868518/assessment%20images/Group_2_xhb4e2.png"
               alt="donut graph"
             />
           </div>
@@ -309,7 +309,7 @@ const DashboardContainer = () => {
           <div className="summary-bottom">
             <img
               className="bar-graph"
-              src="/src/images/graphBar.png"
+              src="https://res.cloudinary.com/dzzohccd8/image/upload/v1690868486/assessment%20images/graphBar_xzpy3v.png"
               alt="bar graph"
             />
           </div>

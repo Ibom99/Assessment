@@ -29,7 +29,7 @@ const TopBar = () => {
             <Notification set="bulk" primaryColor="#5570F1" />
           </div>
 
-          <img src="/src/images/profile 1.png" />
+          <img src="https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/profile_1_rpnsxv.png" />
         </div>
       </div>
       <div className="dash-house">

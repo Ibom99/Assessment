@@ -5,7 +5,7 @@ import { Search } from 'react-iconly'
 const Contacts = () => {
 const contactList = [
     {
-        image: "/src/images/Rectangle 3 (2).png",
+        image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_2_ddjtmi.png",
         status: "#5570F1",
         name: 'Jane Doe',
         message: 'Hi, i want to make enquiries about yo...',
@@ -15,7 +15,7 @@ const contactList = [
 
     },
     {
-      image: "/src/images/Rectangle 3 (3).png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_3_wjlzpe.png",
         status: "#C4CAE8",
         name: 'Janet Adebayo',
         message: 'Hi, i want to make enquiries about yo...',
@@ -24,7 +24,7 @@ const contactList = [
 
     },
     {
-      image: "/src/images/Rectangle 3 (4).png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868462/assessment%20images/Rectangle_3_4_pwcwek.png",
         status: "#5570F1",
         name: 'Kunle Adekunle',
         message: 'Hi, i want to make enquiries about yo...',
@@ -33,7 +33,7 @@ const contactList = [
 
     },
     {
-      image: "/src/images/Rectangle 3 (2).png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_2_ddjtmi.png",
         status: "#5570F1",
         name: 'Jane Doe',
         message: 'Hi, i want to make enquiries about yo...',
@@ -42,7 +42,7 @@ const contactList = [
 
     },
     {
-      image: "/src/images/Rectangle 3 (3).png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_3_wjlzpe.png",
         status: "#5570F1",
         name: 'Janet Adebayo',
         message: 'Hi, i want to make enquiries about yo...',
@@ -51,7 +51,7 @@ const contactList = [
 
     },
     {
-      image: "/src/images/Rectangle 3 (4).png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868462/assessment%20images/Rectangle_3_4_pwcwek.png",
         status: "#C4CAE8",
         name: 'Kunle Adekunle',
         message: 'Hi, i want to make enquiries about yo...',
@@ -60,7 +60,7 @@ const contactList = [
 
     },
     {
-      image: "/src/images/Rectangle 3 (2).png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_2_ddjtmi.png",
         status: "#C4CAE8",
         name: 'Jane Doe',
         message: 'Hi, i want to make enquiries about yo...',
@@ -69,7 +69,7 @@ const contactList = [
 
     },
     {
-      image: "/src/images/Rectangle 3 (3).png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_3_wjlzpe.png",
         status: "#C4CAE8",
         name: 'Janet Adebayo',
         message: 'Hi, i want to make enquiries about yo...',
@@ -78,7 +78,7 @@ const contactList = [
 
     },
     {
-      image: "/src/images/Rectangle 3 (4).png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868462/assessment%20images/Rectangle_3_4_pwcwek.png",
         status: "#C4CAE8",
         name: 'Kunle Adekunle',
         message: 'Hi, i want to make enquiries about yo...',
@@ -87,7 +87,7 @@ const contactList = [
 
     },
     {
-      image: "/src/images/Rectangle 3 (4).png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868462/assessment%20images/Rectangle_3_4_pwcwek.png",
         status: "#5570F1",
         name: 'Kunle Adekunle',
         message: 'Hi, i want to make enquiries about yo...',
@@ -96,7 +96,7 @@ const contactList = [
 
     },
     {
-      image: "/src/images/Rectangle 3 (2).png",
+      image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_2_ddjtmi.png",
       status: "#5570F1",
       name: 'Jane Doe',
       message: 'Hi, i want to make enquiries about yo...',
@@ -106,7 +106,7 @@ const contactList = [
 
   },
   {
-    image: "/src/images/Rectangle 3 (3).png",
+    image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868142/assessment%20images/Rectangle_3_3_wjlzpe.png",
       status: "#5570F1",
       name: 'Janet Adebayo',
       message: 'Hi, i want to make enquiries about yo...',
@@ -115,7 +115,7 @@ const contactList = [
 
   },
   {
-    image: "/src/images/Rectangle 3 (4).png",
+    image: "https://res.cloudinary.com/dzzohccd8/image/upload/v1690868462/assessment%20images/Rectangle_3_4_pwcwek.png",
       status: "#5570F1",
       name: 'Kunle Adekunle',
       message: 'Hi, i want to make enquiries about yo...',
