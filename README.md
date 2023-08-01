@@ -10,6 +10,7 @@ Currently, two official plugins are available:
 
 ## Installation
 
+
 1. Clone the repository:
 
    ```bash
@@ -17,18 +18,17 @@ Currently, two official plugins are available:
 
 2. Install Dependencies
 
-```bash
-   npm install
+    `npm install`
+        or
+    `yarn install`
 
-   or
+4. Run Project Changes
 
-   yarn install
-
-3. View changes
-
-Run a development version of the project on our computer, which is helpful for seeing and testing changes.
-```bash
+   Run a development version of the project on our computer, which is helpful for seeing and testing changes.
+`
 npm run dev
+`
 
-## Deployed
+## Deployed and Live
+
 https://role-assessment.netlify.app/
